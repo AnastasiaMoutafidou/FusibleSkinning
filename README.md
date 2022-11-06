@@ -25,6 +25,12 @@ How to train and run:
 						 so that we have constructed the input RIGNET's LBS schemes or fusible combinations using it. An example of such input is given
 						 in animations/DatasetHumans folder.
   
+  <img src="https://user-images.githubusercontent.com/75429282/200162925-59cd82b8-8225-4556-a93d-ee31d3a0d58a.png" width="600">
+  <img src="https://user-images.githubusercontent.com/75429282/200162805-3ad68a5f-3a10-4d53-9f7a-df2943194420.PNG" width="600">
+  <img src="https://user-images.githubusercontent.com/75429282/200162806-e8bfd5f9-64fd-4580-8f37-09b78e3d1e44.png" width="600">
+  
+  
   Plugin for Blender: Moreover, we have created a plugin for Blender for Show/Hide 3D models imported for training, 
                       link/unlink our method's output, change FPS of output animations & reload an empty scene for user's convenience.
-![alt text](https://github.com/AnastasiaMoutafidou/DeepSkinning/blob/master/Plugin.PNG?raw=true)
+
+  ![alt text](https://github.com/AnastasiaMoutafidou/DeepSkinning/blob/master/Plugin.PNG?raw=true)
