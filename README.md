@@ -1,4 +1,4 @@
-# DeepSkinning
+# Deep Skinning (DS), FESAM, RIGNET LBS & Fusible Skinning Schemes (RIGNET-DS, DS-RIGNET)
 
 This project runs with:
 - Python 3.5.3
@@ -18,6 +18,13 @@ How to train and run:
             p_center.py script. There you should also provide the number of bones (clusters). For comparison purposes of Deep Skinning with FESAM in both tensorflow_script
             & tensorflow_script_without_training we are calculating the number of bones that our network models decide.
  
+  RIGNET-DS & DS-RIGNET: Furtheremore, we have implemented a fusible skinning LBS scheme in which we combine two LBS-schemes to one.
+						 In this case, we could either use Deep Skinning's information on top of Rignet (using RIGNET's weights) or Rignet's
+						 information on top of Deep Skinning (using Deep Skinning's weights).
+						 *Note: for RIGNET methods we have to checkout & use RIGNET method first from here: https://github.com/zhan-xu/RigNet
+						 so that we have constructed the input RIGNET's LBS schemes or fusible combinations using it. An example of such input is given
+						 in animations/DatasetHumans folder.
+  
   Plugin for Blender: Moreover, we have created a plugin for Blender for Show/Hide 3D models imported for training, 
                       link/unlink our method's output, change FPS of output animations & reload an empty scene for user's convenience.
 ![alt text](https://github.com/AnastasiaMoutafidou/DeepSkinning/blob/master/Plugin.PNG?raw=true)
